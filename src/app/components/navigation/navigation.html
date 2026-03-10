@@ -1,0 +1,29 @@
+<div class="wrapper">
+  <div class="logo">
+    <h1>MOVIES032</h1>
+  </div>
+  <div class="nav">
+    <div class="input-search">
+      <input type="text" placeholder="Search" />
+    </div>
+    <a
+      class="tag hover:text-orange-500 cursor-pointer"
+      routerLink="/"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+      >Home</a
+    >
+    <a
+      class="tag hover:text-orange-500 cursor-pointer"
+      routerLink="/movies"
+      routerLinkActive="active"
+      >Movies</a
+    >
+    <a
+      class="tag hover:text-orange-500 cursor-pointer"
+      routerLink="/tv-shows"
+      routerLinkActive="active"
+      >Tv Shows</a
+    >
+  </div>
+</div>
