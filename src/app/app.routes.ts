@@ -14,4 +14,9 @@ export const routes: Routes = [
     path: 'tv-shows',
     loadComponent: () => import('./components/tv-shows/tv-shows').then((m) => m.TvShows),
   },
+  {
+    path: 'description/:id/:mediaType',
+    loadComponent: () =>
+      import('./components/card-description/card-description').then((m) => m.CardDescription),
+  },
 ];

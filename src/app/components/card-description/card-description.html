@@ -1,0 +1,8 @@
+<div class="main">
+  <img [src]="'https://image.tmdb.org/t/p/w500' + movie()?.poster_path" alt="" />
+  <div class="wrapper">
+    <h2>{{ movie()?.title || movie()?.name }}</h2>
+
+    <p>{{ movie()?.overview }}</p>
+  </div>
+</div>
