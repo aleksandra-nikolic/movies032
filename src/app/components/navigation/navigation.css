@@ -22,19 +22,6 @@
   font-weight: 600;
 }
 
-input {
-  border-radius: 5px;
-
-  border: 1px solid #ffffff;
-  outline: none;
-  background: transparent;
-  color: white;
-  padding: 4px 8px;
-}
-
-input:focus {
-  border-color: #b93e00;
-}
 .logo {
   font-size: 24px;
   color: #b93e00;

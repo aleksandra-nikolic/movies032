@@ -1,4 +1,4 @@
-<div class="main">
+<div class="main flex-col sm:flex-row items-center sm:items-start">
   <img [src]="'https://image.tmdb.org/t/p/w500' + movie()?.poster_path" alt="" />
   <div class="wrapper">
     <h2>{{ movie()?.title || movie()?.name }}</h2>

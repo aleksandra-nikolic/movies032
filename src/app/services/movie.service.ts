@@ -1,7 +1,7 @@
 import { Injectable } from '@angular/core';
 import { environment } from '../../environments/environment';
 import { HttpClient } from '@angular/common/http';
-import { TrendingResponse } from '../models/movie.interface';
+import { Media, TrendingResponse } from '../models/movie.interface';
 
 @Injectable({
   providedIn: 'root',
@@ -21,6 +21,9 @@ export class MovieService {
     return this.http.get<TrendingResponse>(`${this.baseUrl}/movie/popular?api_key=${this.apiKey}`);
   }
   getTvShows() {
-    return this.http.get(`${this.baseUrl}/tv/popular?api_key=${this.apiKey}`);
+    return this.http.get<TrendingResponse>(`${this.baseUrl}/tv/popular?api_key=${this.apiKey}`);
+  }
+  getDescription(id: number, mediaType: string) {
+    return this.http.get<Media>(`${this.baseUrl}/${mediaType}/${id}?api_key=${this.apiKey}`);
   }
 }

@@ -1,0 +1,16 @@
+input {
+  border-radius: 5px;
+
+  border: 1px solid #ffffff;
+  outline: none;
+  background: transparent;
+  color: white;
+  padding: 4px 8px;
+}
+input:focus {
+  border-color: #b93e00;
+}
+.wrapper-header {
+  display: flex;
+  justify-content: space-between;
+}
