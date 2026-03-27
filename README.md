@@ -13,7 +13,7 @@ Data is fetched from an external API and includes a search feature and detailed 
 - PrimeNG
 - Tailwind CSS
 - REST API
-- - [TMDB API](https://www.themoviedb.org/documentation/api)
+- [TMDB API](https://www.themoviedb.org/documentation/api)
 
 ## 🚀 Run locally
 1. Clone the repository
