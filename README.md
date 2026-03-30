@@ -24,6 +24,9 @@ Data is fetched from an external API and includes a search feature and detailed 
    ng serve
 4. Open http://localhost:4200 in your browser
 
+## Live demo
+https://movie-app-032.netlify.app/
+
 ## Note
 This app uses the [TMDB API](https://www.themoviedb.org/documentation/api).
 This product uses the TMDB API but is not endorsed or certified by TMDB.
